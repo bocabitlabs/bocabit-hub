@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Grid, Segment, Image, Header } from 'semantic-ui-react'
+import { Grid, Segment, Image, Header, Item } from 'semantic-ui-react'
 import ReactGA from 'react-ga'
 
 import logo from '../logo2.png'
@@ -14,22 +14,24 @@ class Home extends Component {
     ReactGA.pageview('/')
     return (
       <div className={'Aligner-item'}>
-        <Grid stackable columns={2} centered padded>
-          <Grid.Column>
-            <Segment basic textAlign={'center'}>
-              <Header as={'h1'}>
-                <Image src={logo} rounded /> {'bocabit.com'}
-              </Header>
-            </Segment>
-          </Grid.Column>
-        </Grid>
         <Grid stackable columns={1} centered padded>
           <Grid.Column>
-            <Segment basic textAlign={'center'} className={'main-links'}>
-              <ExternalLink linkUrl={this.blogUrl} linkLabel={'Blog'} />
-              <Separator />
-              <ExternalLink linkUrl={this.personalSiteUrl} linkLabel={'Personal Site'} />
-            </Segment>
+            <Segment.Group>
+              <Segment textAlign={'center'} className={'main-links'}>
+                <Header as={'h1'}>
+                  <Image src={logo} rounded /> {'bocabit.com'}
+                </Header>
+              </Segment>
+              <Segment textAlign={'center'} className={'main-links'}>
+                <ExternalLink linkUrl={this.blogUrl} linkLabel={'Blog'} />
+              </Segment>
+              <Segment textAlign={'center'} className={'main-links'}>
+                <ExternalLink linkUrl={this.personalSiteUrl} linkLabel={'Personal Site'} />
+              </Segment>
+              <Segment basic textAlign={'center'}>
+                <small>{'2018 - René Fernandez'}</small>
+              </Segment>
+            </Segment.Group>
           </Grid.Column>
         </Grid>
       </div>

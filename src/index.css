@@ -36,10 +36,8 @@ body {
 
 .main-link {
   cursor: pointer;
-  color: #53ae65;
 }
 
 .main-link:hover {
-  color: #53ae65;
   text-decoration: underline
 }
