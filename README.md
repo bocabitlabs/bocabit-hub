@@ -1,3 +1,3 @@
-![Node.js CI](https://github.com/bocabitlabs/bocabit-hub/workflows/Node.js%20CI/badge.svg)
+![Build and Deploy](https://github.com/bocabitlabs/bocabit-hub/workflows/Build%20and%20Deploy/badge.svg)
 
 # Bocabit HUB
