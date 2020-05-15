@@ -28,7 +28,7 @@ class Home extends Component {
                 <ExternalLink linkUrl={this.personalSiteUrl} linkLabel={'Personal Site'} />
               </Segment>
               <Segment basic textAlign={'center'}>
-                <small>{'2018 - René Fernandez'}</small>
+                <small>{'2020 - René Fernandez'}</small>
               </Segment>
             </Segment.Group>
           </Grid.Column>
