@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Grid, Segment, Image, Header, Item } from 'semantic-ui-react'
+import { Grid, Segment, Image, Header } from 'semantic-ui-react'
 import ReactGA from 'react-ga'
 
 import logo from '../logo2.png'
