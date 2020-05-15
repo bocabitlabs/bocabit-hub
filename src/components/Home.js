@@ -4,7 +4,6 @@ import ReactGA from 'react-ga'
 
 import logo from '../logo2.png'
 import ExternalLink from './ExternalLink'
-import Separator from './Separator'
 
 class Home extends Component {
   blogUrl = 'http://blog.bocabit.com'
